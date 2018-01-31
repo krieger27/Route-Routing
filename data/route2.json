@@ -1,6 +1,6 @@
 {
-    "routes1": [{
-        "name": "Blue Ridge Parkway",
-        "description": "The Blue Ridge Parkway is a National Parkway and All-American Road in the United States, noted for its scenic beauty."
+    "routes": [{
+        "name": "Route 66",
+        "description": "U.S. Route 66, also known as the Will Rogers Highway, the Main Street of America or the Mother Road, was one of the original highways within the U.S. Highway System."
     }]
     }
