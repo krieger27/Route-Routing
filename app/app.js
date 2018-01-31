@@ -3,19 +3,13 @@
 angular.module("route", ["ngRoute"])
 .config($routeProvider => {
     $routeProvider
-        .when("/", {
-            templateUrl: "partials/guides.html",
+        .when("/blueridge", {
+            templateUrl: "partials/blueridge.html",
             controller: "BlueRidgeCtrl"
         })
-        .when("/", {
-            templateUrl: "partials/guides.html",
+        .when("/route66", {
+            templateUrl: "partials/route66.html",
             controller: "Route66Ctrl"
         })
         .otherwise("/");
-});
-controller("BlueRidgeCtrl", function($scope, $rootScope) {
-    $scope.message = "Welcome to Angular!";
-})
-.controller("Route66Ctrl", function($scope) {
-    $scope.message = "My name is Angular Man!";
 });
