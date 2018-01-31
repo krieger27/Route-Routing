@@ -1,27 +1,18 @@
 {
-  "name": "route-routing",
+  "name": "lib",
   "version": "1.0.0",
   "description": "",
-  "main": "Gruntfile.js",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/krieger27/Route-Routing.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/krieger27/Route-Routing/issues"
-  },
-  "homepage": "https://github.com/krieger27/Route-Routing#readme",
   "devDependencies": {
-    "angular-route": "^1.6.8",
-    "grunt": "^0.4.5",
+    "grunt": "~0.4.1",
     "grunt-angular-builder": "^1.0.0",
-    "grunt-contrib-jshint": "^0.11.3",
+    "grunt-contrib-jshint": "^0.11.2",
     "grunt-contrib-sass": "^0.9.2",
     "grunt-contrib-watch": "^0.6.1",
     "jshint": "^2.9.1",
@@ -29,7 +20,8 @@
     "matchdep": "^0.3.0"
   },
   "dependencies": {
-    "angular": "^1.6.8",
-    "builder": "^3.2.3"
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "npm": "^5.6.0"
   }
 }
